@@ -10,7 +10,7 @@ async function getData() {
 
 export default async function Home() {
   const coffeeStores = await getData();
-  console.log(coffeeStores);
+  // console.log(coffeeStores);
 
   
   return (
